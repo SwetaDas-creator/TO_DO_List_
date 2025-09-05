@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay loop muted class="back-video">
+    <source src="your-video.mp4" type="video/mp4"/>
+  </video>
+  <div class="container">
+    <div class="todo-app">
+      <h2>🌟 To-Do App 🌟</h2>
+      
+      <div class="progress-container">
+        <p id="progress-text">Keep it Up!</p>
+        <div class="progress-bar">
+          <div id="progress"></div>
+        </div>
+        <div class="task-count"><span id="done-count">0</span>/<span id="total-count">0</span></div>
+      </div>
+
+      <div class="input-section">
+        <input type="text" id="task-input" placeholder="Add a new task..." />
+        <button id="add-btn">+</button>
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <!-- Timer Section -->
+    <div class="timer">
+      <h3 class="timer-header">Focus Time</h3>
+      <p id="timer-display">00:00:00</p>
+      <div class="timer-buttons">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn">Pause</button>
+        <button id="reset-btn">End</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
