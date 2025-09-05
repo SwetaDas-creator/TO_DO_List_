@@ -74,5 +74,3 @@ Todo List/
 - 📱 Mobile responsive design improvements
 - 🗂️ Local storage support (save tasks even after refresh)
 
-Sweta Das
-Project built for learning and productivity ✨
